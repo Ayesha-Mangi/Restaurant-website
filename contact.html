@@ -1,33 +1,89 @@
-<body alink = "white" vlink = "white" >
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us - Sindhri Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background-color: GhostWhite;
+    }
+    .header, .footer {
+      background-color: darkslategray;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+    .section {
+      text-align: center;
+      padding: 40px;
+    }
+    form {
+      margin-top: 30px;
+      display: inline-block;
+      text-align: left;
+      font-size: 18px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 10px 0 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    button {
+      background-color: darkslategray;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2f4f4f;
+    }
+  </style>
+</head>
+<body>
 
-<table width = 100% height = 130% bgcolor ="Ghostwhite" >
+  <div class="header">
+    <h1>SINDHRI RESTAURANT</h1>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
 
-<tr  height = 30% style = "background-color : darkslategray" > 
-<td align = "center" ><font color = "white" size = 8> SINDHRI RESTAURANT </font></br></br><font color = "white" size = 4 ><pre><a href = "D:\project.html">Home</a>       <a href = "D:\menu.html">Menu </a>       <a href = "D:\contact.html">Contact</a> </td>
-</tr>
+  <div class="section">
+    <h2>Contact Us</h2>
+    <p style="font-size: 20px;">Have a question or want to make a reservation? Fill out the form below!</p>
 
-<tr>
-	<td align = "center"> <h2>Contact Us</h2>
-        <font size = 6><p>Have a question or want to make a reservation? Fill out the form below!</p>
-		<form align = "Center" >
-		<label> Your Name</label><br/>
-		<input type = "text" placeholder = "Enter Name" ></br>
+    <form>
+      <label for="name">Your Name</label><br>
+      <input type="text" id="name" placeholder="Enter your name" required><br>
 
-                <label> Your E-mail</label><br/>
-				<input type = "text" placeholder = "Enter E-mail" ></br>
+      <label for="email">Your Email</label><br>
+      <input type="email" id="email" placeholder="Enter your email" required><br>
 
-                <label>Your Message <label><br/>
-				<textarea>
-				</textarea></br>
+      <label for="message">Your Message</label><br>
+      <textarea id="message" rows="5" placeholder="Write your message here..."></textarea><br>
 
-                <button type="submit">Submit</button>
-				</font>
-		</form>
-		</td>
-</tr>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
 
-<tr height = 10% style = "background-color : darkslategray" > 
-<td align = "center"  ><font color = "white" size = 5> &copy; 2024 Sindhri Restaurant. All rights reserved.</td>
-</tr>
+  <div class="footer">
+    &copy; 2024 Sindhri Restaurant. All rights reserved.
+  </div>
 
 </body>
+</html>

@@ -1,51 +1,238 @@
-<body  alink = "white" vlink = "white">
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Menu - Sindhri Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background-color: GhostWhite;
+    }
+    .header, .footer {
+      background-color: darkslategray;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+    .section {
+      text-align: center;
+      padding: 40px;
+    }
+    h2 {
+      color: red;
+    }
+    .menu-section {
+      margin-top: 30px;
+    }
+    .menu-item {
+      display: inline-block;
+      margin: 20px;
+      text-align: center;
+    }
+    .menu-item img {
+      width: 180px;
+      height: 120px;
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
 
-<table width = 100% height = 150% border= 0  bgcolor = "Ghostwhite" style = " border-spacing : 30 ">
+  <div class="header">
+    <h1>SINDHRI RESTAURANT</h1>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
 
-<tr  height = 30% style = "background-color : darkslategray" > 
-<td align = "center" ><font color = "white" size = 8> SINDHRI RESTAURANT </font></br></br><font color = "white" size = 4 ><pre><a href = "D:\project.html">Home</a>   <a href = "D:\menu.html">Menu </a>   <a href = "D:\contact.html">Contact</a> </td></pre>
-</tr>
+  <div class="section">
+    <h2>Our Menu</h2>
 
-<tr height = 3% style = "background-color : ghostwhite" >
-<td align = "center" ><font color = "red" size = 6> Our menu </td></font>
+    <!-- Appetizers Section -->
+    <div class="menu-section">
+      <h3>Appetizers</h3>
+      <div class="menu-item">
+        <img src="images/Bruschetta.jpg" alt="Bruschetta">
+        Bruschetta - $7
+      </div>
+      <div class="menu-item">
+        <img src="images/garlic-bread.jpg" alt="Garlic Bread">
+        Garlic Bread - $5
+      </div>
+      <div class="menu-item">
+        <img src="images/stuffed-mushrooms.jpg" alt="Stuffed Mushrooms">
+        Stuffed Mushrooms - $10
+      </div>
+    </div>
 
-</tr>
+    <!-- Main Course Section -->
+    <div class="menu-section">
+      <h3>Main Course</h3>
+      <div class="menu-item">
+        <img src="images/grilled-chicken.jpg" alt="Grilled Chicken">
+        Grilled Chicken - $15
+      </div>
+      <div class="menu-item">
+        <img src="images/pasta-alfredo.jpg" alt="Pasta Alfredo">
+        Pasta Alfredo - $12
+      </div>
+      <div class="menu-item">
+        <img src="images/vegetarian-pizza.jpg" alt="Vegetarian Pizza">
+        Vegetarian Pizza - $13
+      </div>
+    </div>
 
-<tr style = "background-color :lightgray"  height = 30%>
-<td align = "center" ><font color = "blue" size = 6><h3>Appetizers</h3>
- <font color = "black" size = 5><pre><img src="Bruschetta.jpg" alt="Bruschetta" class="menu-item" width =10% height = 30% >          <img src="Garlic Bread.jpg" alt="Garlic Bread" class="menu-item" width =10% height = 30%>        <img src="Stuffed Mushrooms.jpg" alt="Stuffed Mushrooms" class="menu-item"width =13% height = 30%></br> Bruschetta - $7      Garlic Bread - $5    Stuffed Mushrooms - $10</br></pre>
-             </font></td>
+    <!-- Desserts Section -->
+    <div class="menu-section">
+      <h3>Desserts</h3>
+      <div class="menu-item">
+        <img src="images/lava-cake.jpg" alt="Lava Cake">
+        Chocolate Cake - $6
+      </div>
+      <div class="menu-item">
+        <img src="images/stuffed-mushrooms.jpg" alt="Stuffed Mushrooms">
+        Ice Cream - $4
+      </div>
+      <div class="menu-item">
+        <img src="images/cheesecake.jpg" alt="Cheesecake">
+        Cheesecake - $7
+      </div>
+    </div>
+    
+  </div>
 
-</tr>
-
-<tr style = "background-color :lightgray"  height = 70%>
-<td align = "center" ><font color = "blue" size = 6><h3>Main Course</h3>
-<font color = "black" size = 5><pre><img src="grilled-chicken.jpg" alt="Grilled Chicken"width =13% height = 30%>              <img src="Pasta Alfredo.jpg" alt="Pasta Alfredo" width =10% height = 30%>        <img src="vegetarian-pizza.jpg" alt="Vegetarian Pizza"width =15% height = 30%>
-</br>Grilled Chicken - $15     Vegetarian Pizza - $13      Pasta Alfredo - $12</br></pre>
-                
-               
-
-             </font></td>
-
-</tr>
-<tr style = "background-color :lightgray"  height = 30%>
-<td align = "center" ><font color = "blue" size = 7><h3>Desserts</h3>
-<font color = "black" size = 5><pre><img src="lava-cake.jpg" alt="Chocolate Lava Cake" width =13% height = 30%>               <img src="cheesecake.jpg" alt="Cheesecake" width =15% height = 30%>             <img src="apple-pie.jpg" alt="Apple Pie" width =15% height = 30%></br>Chocolate Lava Cake - $6         Cheesecake - $7          Apple Pie - $5</br></pre>
-                
-               
-
-             </font></td>
-
-</tr>
-
-<tr height = 10% style = "background-color : darkslategray" > 
-<td align = "center"  ><font color = "white" size = 5> &copy; 2024 Sindhri Restaurant. All rights reserved.</td>
-</tr>
-
-</table>
-
+  <div class="footer">
+    &copy; 2024 Sindhri Restaurant. All rights reserved.
+  </div>
 
 </body>
+</html>
 
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Menu - Sindhri Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background-color: GhostWhite;
+    }
+    .header, .footer {
+      background-color: darkslategray;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+    .section {
+      text-align: center;
+      padding: 40px;
+    }
+    h2 {
+      color: red;
+    }
+    .menu-section {
+      margin-top: 30px;
+    }
+    .menu-item {
+      display: inline-block;
+      margin: 20px;
+      text-align: center;
+    }
+    .menu-item img {
+      width: 180px;
+      height: 120px;
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
 
+  <div class="header">
+    <h1>SINDHRI RESTAURANT</h1>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
 
+  <div class="section">
+    <h2>Our Menu</h2>
+
+    <div class="menu-section">
+      <h3>Appetizers</h3>
+      <div class="menu-item">
+        <img src="images/Bruschetta.jpg" alt="Bruschetta">
+        Bruschetta - $7
+      </div>
+      <div class="menu-item">
+        <img src="images/garlic-bread.jpg" alt="Garlic Bread">
+        Garlic Bread - $5
+      </div>
+      <div class="menu-item">
+        <img src="images/stuffed-mushrooms.jpg" alt="Stuffed Mushrooms">
+        Stuffed Mushrooms - $10
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <h3>Main Course</h3>
+      <div class="menu-item">
+        <img src="images/grilled-chicken.jpg" alt="Grilled Chicken">
+        Grilled Chicken - $15
+      </div>
+      <div class="menu-item">
+        <img src="images/pasta-alfredo.jpg" alt="pasta-alfredo">
+        Pasta Alfredo - $12
+      </div>
+      <div class="menu-item">
+        <img src="images/vegetarian-pizza.jpg" alt="Vegetarian Pizza">
+        Vegetarian Pizza - $13
+      </div>
+    </div>
+  </div>
+  
+   <div class="menu-section">
+      <h3>Desserts</h3>
+      <div class="menu-item">
+        <img src="images/lava-cake.jpg" alt="Lava Cake">
+        Chocolate Cake - $6
+      </div>
+      <div class="menu-item">
+        <img src="images/stuffed-mushroom.jpg" alt="stuffed-mushroom">
+        Ice Cream - $4
+      </div>
+      <div class="menu-item">
+        <img src="images/cheesecake.jpg" alt="Cheesecake">
+        Cheesecake - $7
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="footer">
+    &copy; 2024 Sindhri Restaurant. All rights reserved.
+  </div>
+
+</body>
+</html>
+
+! -->
