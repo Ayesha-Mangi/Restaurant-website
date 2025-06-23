@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sindhri Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background-color: GhostWhite;
+    }
+    .header, .footer {
+      background-color: darkslategray;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+    .main {
+      text-align: center;
+      padding: 40px;
+    }
+    .main img {
+      width: 30%;
+      height: auto;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>SINDHRI RESTAURANT</h1>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <div class="main">
+    <h2 style="color: red;">Welcome to Sindhri Restaurant!</h2>
+    <p>Experience the finest dishes and a wonderful dining atmosphere. Taste the difference today!</p>
+    <img src="images/restaurant.jpg" alt="Restaurant Image">
+  </div>
+
+  <div class="footer">
+    &copy; 2024 Sindhri Restaurant. All rights reserved.
+  </div>
+
+</body>
+</html>

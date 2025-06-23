@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Menu - Sindhri Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background-color: GhostWhite;
+    }
+    .header, .footer {
+      background-color: darkslategray;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+    .section {
+      text-align: center;
+      padding: 40px;
+    }
+    h2 {
+      color: red;
+    }
+    .menu-section {
+      margin-top: 30px;
+    }
+    .menu-item {
+      display: inline-block;
+      margin: 20px;
+      text-align: center;
+    }
+    .menu-item img {
+      width: 180px;
+      height: 120px;
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>SINDHRI RESTAURANT</h1>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Our Menu</h2>
+
+    <div class="menu-section">
+      <h3>Appetizers</h3>
+      <div class="menu-item">
+        <img src="images/Bruschetta.jpg" alt="Bruschetta">
+        Bruschetta - $7
+      </div>
+      <div class="menu-item">
+        <img src="images/Garlic Bread.jpg" alt="Garlic Bread">
+        Garlic Bread - $5
+      </div>
+      <div class="menu-item">
+        <img src="images/Stuffed Mushrooms.jpg" alt="Stuffed Mushrooms">
+        Stuffed Mushrooms - $10
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <h3>Main Course</h3>
+      <div class="menu-item">
+        <img src="images/grilled-chicken.jpg" alt="Grilled Chicken">
+        Grilled Chicken - $15
+      </div>
+      <div class="menu-item">
+        <img src="images/Pasta Alfredo.jpg" alt="Pasta Alfredo">
+        Pasta Alfredo - $12
+      </div>
+      <div class="menu-item">
+        <img src="images/vegetarian-pizza.jpg" alt="Vegetarian Pizza">
+        Vegetarian Pizza - $13
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2024 Sindhri Restaurant. All rights reserved.
+  </div>
+
+</body>
+</html>
